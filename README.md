@@ -23,7 +23,6 @@ Currently, the frontline treatments for breast cancer include: surgery (lumpecto
 ### Successful Treatment Signs
 A successful treatment for breast cancer would show any of the following: a reduction in tumor size, complete dissapearance of the tumor, prolonged time without cancer growth, and biomarker improvements (such as a decrease in tumor markers).
 
-Frontline Treatments for Breast Cancer:
 ## Genes Underlying Breast Cancer
 
 ## Protein-Protein Interaction (PPI) Network
