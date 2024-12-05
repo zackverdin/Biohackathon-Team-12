@@ -23,7 +23,7 @@ A successful treatment for breast cancer would show any of the following: a redu
 If the frontline treatment fails, there are other treatment options that can be taken. Alternative chemotherapy regimens may be recommended, advanced targeted therapies (T-DM1, tucatinib, CDK4/6 and mTOR inhibitors), and alternative immunotherapy options may be prescribed. Additionally, patients can try PARP inhibitors to see if they qualify for any clinical trials. Lastly, patients can focus on treatments targeted at symptom management and improving quality of life.
 
 ### Organs Involved in Expression of Breast Cancer
-The primary site of breast cancer is breast tissue. This includes mammary glands, ducts, and lobules. However, cancer can metastasize to other sites, and common sites of metastasis include bone, lungs, liver, brain, and lymph nodes. The pattern of metastasis can vary depending on the severity and molecular subtype of breast cancer. 
+The primary site of breast cancer is breast tissue. This includes mammary glands, ducts, and lobules. However, breast cancer can metastasize to other sites, and common sites of metastasis include bone, lungs, liver, brain, and lymph nodes. The pattern of metastasis can vary depending on the severity and molecular subtype of breast cancer. 
 
 ## Genes Underlying Breast Cancer
 
