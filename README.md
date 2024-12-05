@@ -1,4 +1,4 @@
-# Biohackathon-Team-12
+# Biohackathon-Team-12-Breast-Cancer
 
 ## Breast Cancer Overview
 ### What is Breast Cancer?
