@@ -70,7 +70,8 @@ BARD1: 64 interacting genes
 KRAS: 458 interacting genes
 CDH1: 553 interacting genes
 ESR1: 184 interacting genes
- 
+
+ ![Alt text](image URL)
   
 ### Tissue-specific eQTLs DNA polymorphisms
 
