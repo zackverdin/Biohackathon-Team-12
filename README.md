@@ -78,7 +78,7 @@ ESR1: 184 interacting genes
  
 Cytoscape's gene enrichment tool identified 306 significantly enriched terms and pathways (p-value < 1e-20) in the biological network to further explore, see *Biohackathon_BCdisease_gene_enrichments.csv.* 
 
- [Link text](URL)
+[Biohackathon_BCdisease_gene_enrichments.csv](https://github.com/zackverdin/Biohackathon-Team-12-Breast-Cancer/blob/main/Biohackathon_BCdisease_gene_enrichments.csv)
      
 ### Tissue-specific eQTLs DNA polymorphisms
 
