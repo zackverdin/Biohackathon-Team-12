@@ -60,6 +60,18 @@ Three potential hypotheses consider the complex molecular mechanisms underlying 
   * *BARD1* (601593)
   * *CDH1* (92090)
   * *KRAS* (190070)
+ 
+The separate Intact PPI mitab files for each seed gene were processed via a Python script into a single CSV file, where each row in the CSV contains a seed gene and its interacting partner, see *Biohackathon_BCdisease_Edges.csv.*
+
+#### EBI Intact Database PPI Analysis Results:
+> Processing complete. Results:
+BRCA2: 95 interacting genes
+BARD1: 64 interacting genes
+KRAS: 458 interacting genes
+CDH1: 553 interacting genes
+ESR1: 184 interacting genes
+ 
+  
 ### Tissue-specific eQTLs DNA polymorphisms
 
 ## Hypotheses
