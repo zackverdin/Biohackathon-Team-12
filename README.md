@@ -25,10 +25,30 @@ If the frontline treatment fails, there are other treatment options that can be 
 ### Organs Involved in Expression of Breast Cancer
 The primary site of breast cancer is breast tissue. This includes mammary glands, ducts, and lobules. However, breast cancer can metastasize to other sites, and common sites of metastasis include bone, lungs, liver, brain, and lymph nodes. The pattern of metastasis can vary depending on the severity and molecular subtype of breast cancer. 
 
-## Genes Underlying Breast Cancer
+## Methods
+### Finding seed genes:  
+Genes that are associated with breast cancer were identified in an OMIM (www.omim.org) search, which returned a total of 20 genes that harbor known gene-phenotype relationships in breast cancer.  The 20 gene list was then queried using generative AI (Prometheus) on the PraxisAI platform (https://learning.praxislxp.com/) to help identify the top 5 most significant genes based on the scientific literature and reliable public databases.  These 5 genes served as the known candidate 'seed' genes associated with breast cancer for this analysis: *BRCA2* (600185), *ESR1* (133430), *CDH1* (92090), *BARD1* (601593), and *KRAS* (190070).  
 
-## Protein-Protein Interaction (PPI) Network
+### Building the PPI Network: 
+The 'seed' gene node list was used for building a protein:protein interaction (PPI) network, which can provide insight into cellular processes, disease mechanisms, and protein functions in breast cancer. The human protein interactors in the PPI network were determined via searching of the ‘seed’ genes in the European Bioinformatics Institute (EBI) Intact database (https://www.ebi.ac.uk/intact).  The PPI mitab files were obtained for each seed gene from Intact and processed via Python to generate a PPI list, that lists the seed genes and target gene edges (protein interactors), see *biohackathon-BC_PIP_pythonscript.txt.*
 
-## Tissue-specific eQTLs DNA polymorphisms
+### Visualization and Characterization of the PPI Network:  
+The PPI list (see *Biohackathon_BCdisease_Edges.csv*) was uploaded into the Cytoscape software platform (https://cytoscape.org/index.html) for visualization and further characterization of the PPI network. Cytoscape's gene enrichment tool was utilized to identify significantly enriched biological functions and pathways (p-value < 1e-20) in the network to explore how they relate to each other and the network as a whole, see *Biohackathon_BCdisease_gene_enrichments.csv.* 
 
-## Hypothesis
+## Results
+
+### Genes Underlying Breast Cancer
+
+* #### The 'seed' gene node list:
+  * *BRCA2* (600185)
+  * *ESR1* (133430)
+  * *BARD1* (601593)
+  * *CDH1* (92090)
+  * *KRAS* (190070)
+
+
+### Protein-Protein Interaction (PPI) Network
+
+### Tissue-specific eQTLs DNA polymorphisms
+
+## Hypotheses
