@@ -71,7 +71,9 @@ KRAS: 458 interacting genes
 CDH1: 553 interacting genes
 ESR1: 184 interacting genes
 
- ![Alt text](image URL)
+
+#### Cytoscape PPI Network:
+ ![Alt text](https://github.com/zackverdin/Biohackathon-Team-12-Breast-Cancer/blob/main/Biohackathon_BCdisease_Edges.png.png)
   
 ### Tissue-specific eQTLs DNA polymorphisms
 
