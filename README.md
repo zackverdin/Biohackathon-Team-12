@@ -75,7 +75,10 @@ ESR1: 184 interacting genes
 #### Cytoscape PPI Network:
 
  ![Alt text](https://github.com/zackverdin/Biohackathon-Team-12-Breast-Cancer/blob/main/Biohackathon_BCdisease_Edges.png.png)
- 
+The Cytoscape PPI network identified 1349 interactions associated with breast cancer, see *Biohackathon_BCdisease_gene_enrichments.csv:* 
+
+[Biohackathon_BCdisease_gene_enrichments.csv](https://github.com/zackverdin/Biohackathon-Team-12-Breast-Cancer/blob/main/Biohackathon_BCdisease_gene_enrichments.csv)
+
 Cytoscape's gene enrichment tool identified 306 significantly enriched terms and pathways (p-value < 1e-20) in the biological network to further explore, see *Biohackathon_BCdisease_gene_enrichments.csv:* 
 
 [Biohackathon_BCdisease_gene_enrichments.csv](https://github.com/zackverdin/Biohackathon-Team-12-Breast-Cancer/blob/main/Biohackathon_BCdisease_gene_enrichments.csv)
