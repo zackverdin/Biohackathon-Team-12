@@ -38,17 +38,28 @@ The PPI list (see *Biohackathon_BCdisease_Edges.csv*) was uploaded into the Cyto
 ## Results
 
 ### Genes Underlying Breast Cancer
+BARD1, BRCA2, ESR1, KRAS, and CDH1 genes are associated with breast cancer and each of these genes plays a unique role in the development and progression of breast cancer.
 
+ * *BARD1* is involved in DNA double-strand break repair and plays a crucial role in tumor suppression. *BARD1* is closely associated with *BRCA1*, another tumor suppressor gene involved in DNA repair and cell cycle regulation.
+ * *BRCA2* is crucial for maintaining genomic stability through its role in homologous recombination DNA repair and is a well-known tumor suppressor gene. Mutations in the *BRCA2* gene significantly increases risk of breast and ovarian cancers.
+ * *ESR1* encodes the estrogen receptor alpha (ERα) which is a transcription factor that, when activated by estrogen, regulates the expression of genes involved in cell proliferation and survival. Mutations in *ESR1* can lead to hormone therapy resistance in breast cancer patients
+ * *KRAS* is a GTPase that regulates cell proliferation and survival. *KRAS* mutations are commonly associated with other cancers, and can play a role in breast cancer development.
+ * *CDH1* encodes E-cadherin, a protein crucial for cell-cell adhesion in epithelial tissues.  Loss of E-cadherin function can lead to increased cell motility and invasiveness, promoting cancer metastasis.
+
+Three potential hypotheses consider the complex molecular mechanisms underlying disease development to explain how the misexpression of these genes can lead to breast cancer:  
+* Hypothesis 1: Disruption of DNA Repair Mechanisms and Genomic Instability- *BRCA2* and *BARD1* are both involved in DNA Repair Pathways, and defects in these pathways can lead to genomic instability and increased cancer risk. 
+* Hypothesis 2: Dysregulation of Cell Signaling and Proliferation Pathways- *KRAS* mutations can induce downstream signaling pathways that may interfere or override the protective effects of tumor suppressor genes or the regulatory effects of hormone receptors, such as *BRCA2* or *ESR1*, respectively. 
+* Hypothesis 3: Compromised Cell Adhesion and Enhanced Metastatic Potential- *CDH1* mutations can lead to loss of cell-cell adhesion and potentially interact with other pathways to promote cancer cell invasion and metastasis.
+
+
+
+### Protein-Protein Interaction (PPI) Network
 * #### The 'seed' gene node list:
   * *BRCA2* (600185)
   * *ESR1* (133430)
   * *BARD1* (601593)
   * *CDH1* (92090)
   * *KRAS* (190070)
-
-
-### Protein-Protein Interaction (PPI) Network
-
 ### Tissue-specific eQTLs DNA polymorphisms
 
 ## Hypotheses
