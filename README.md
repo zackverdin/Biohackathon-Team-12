@@ -29,7 +29,7 @@ The primary site of breast cancer is breast tissue. This includes mammary glands
 ### Finding seed genes:  
 Genes that are associated with breast cancer were identified in an OMIM (www.omim.org) search, which returned a total of 20 genes that harbor known gene-phenotype relationships in breast cancer.  The 20 gene list was then queried using generative AI (Prometheus) on the PraxisAI platform (https://learning.praxislxp.com/) to help identify the top 5 most significant genes based on the scientific literature and reliable public databases.  These 5 genes served as the known candidate 'seed' genes associated with breast cancer for this analysis: *BRCA2* (600185), *ESR1* (133430), *CDH1* (92090), *BARD1* (601593), and *KRAS* (190070).  
 
-## Building the PPI Network: 
+### Building the PPI Network: 
 The 'seed' gene node list was used for building a protein:protein interaction (PPI) network, which can provide insight into cellular processes, disease mechanisms, and protein functions in breast cancer. The human protein interactors in the PPI network were determined via searching of the ‘seed’ genes in the European Bioinformatics Institute (EBI) Intact database (https://www.ebi.ac.uk/intact).  The PPI mitab files were obtained for each seed gene from Intact and processed via Python to generate a PPI list, that lists the seed genes and target gene edges (protein interactors), see *biohackathon-BC_PPI_pythonscript.txt.*
 
 ### Visualization and Characterization of the PPI Network:  
