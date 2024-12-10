@@ -87,7 +87,7 @@ Cytoscape's gene enrichment tool identified 306 significantly enriched terms and
      
 ### Tissue-specific eQTLs DNA polymorphisms
 
-## Hypotheses
+## Hypothesis
 
 
 
