@@ -86,6 +86,20 @@ Cytoscape's gene enrichment tool identified 306 significantly enriched terms and
 
      
 ### Tissue-specific eQTLs DNA polymorphisms
+BARD1 (ENSG00000138376.11):
+Tibial Nerve, Thyroid, Subcutaneous Adipose, Tibial Artery, Whole blood, Lung, Skeletal Muscle, Muscularis Esophagus, Aortal Artery, Mammary Tissue, Pituitary, Visceral Adipose, Atrial Appendage, Left Ventricle of the Heart, Colon, Prostate, Spleen, Skin, Testis, Stomach, Frontal Cortex, Coronary Artery, Cortex, Spinal Cord, Adrenal Gland, Pancreas, Minor Salivary Gland, Cultured Fibroblasts, Ovary, Small Intestine, Hypothalamus, Hippocampus, Putamen, Amygdala, Uterus, Kidney, Vagina, Cerebellum
+
+BRCA2 (ENSG00000139618.17):
+Aortal Artery, Tibial Artery, Subcutaneous Adipose, Thyroid, Lung, Visceral Adipose, Cultured Fibroblasts, Tibial Nerve, Spleen, Esophagus, Pituitary, Coronary Artery, Minor Salivary Gland, Mammary Tissue (Breast), Pancreas
+
+KRAS (ENSG00000133703.14):
+Colon, Cultured Fibroblasts, Transverse Colon, Pancreas, Esophagus, Thyroid, Skin, Pituitary, Caudate (Brain), Tibial Nerve, Testis, Minor Salivary Gland, Whole Blood, Lung, Atrial Appendage, Adrenal Gland
+
+CDH1 (ENSG00000039068.20):
+Tibial Nerve, Spleen, Caudate (Brain), Putamen (Brain), Thyroid, Hippocampus, Esophagus, Frontal Cortex, Lung, Hypothalamus, Spinal Cord, Skin, Pituitary, Colon, Cerebellum
+
+ESR1 (ENSG00000091831.25):
+Testis, Thyroid, Skin, Aortal Artery, Pancreas, Frontal Cortex, Spinal Cord, Ovary, Colon, Tibial Artery
 
 ## Hypothesis
 
