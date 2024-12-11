@@ -89,5 +89,93 @@ Cytoscape's gene enrichment tool identified 306 significantly enriched terms and
 
 ## Hypothesis
 
+Hypothesis: The dysregulation of the DNA damage response (DDR) pathway, caused by mutations or altered interactions in the BRCA2-BARD1-PALB2 complex, leads to genomic instability and subsequent breast cancer development.
 
+To 
+
+### Cell Line Modification:
+a. CRISPR/Cas9 Gene Editing:
+Design guide RNAs (gRNAs) targeting BRCA2, BARD1, and PALB2 genes.
+Transfect MCF10A cells (normal breast epithelial cell line) with CRISPR/Cas9 plasmids containing the gRNAs.
+Create single knockout cell lines for each gene: BRCA2-/-, BARD1-/-, and PALB2-/-.
+Generate a control cell line using non-targeting gRNA.
+Verify knockouts by Sanger sequencing and Western blotting.
+
+### Protein Complex Analysis:
+a. Co-Immunoprecipitation (Co-IP):
+Prepare cell lysates from wild-type and knockout cell lines.
+Perform Co-IP using antibodies against BRCA2, BARD1, and PALB2.
+Analyze precipitates by Western blotting to assess complex formation.
+
+b. Western Blotting:
+Prepare whole cell lysates from all cell lines.
+Separate proteins by SDS-PAGE and transfer to PVDF membranes.
+Probe with antibodies against BRCA2, BARD1, and PALB2.
+Quantify protein levels using densitometry.
+
+### DNA Damage Response Assay:
+a. DNA Damage Induction:
+Treat cells with ionizing radiation (2 Gy) or mitomycin C (100 ng/mL) for 1 hour.
+
+b. γ-H2AX Foci Formation:
+Fix cells at 0, 1, 4, and 24 hours post-treatment.
+Perform immunofluorescence staining for γ-H2AX.
+Capture images using a fluorescence microscope.
+Count foci in at least 100 cells per condition using ImageJ software.
+
+c. RAD51 Foci Formation:
+Follow the same procedure as γ-H2AX, but stain for RAD51.
+Analyze foci formation at 4 and 8 hours post-treatment.
+
+### Genomic Instability Assessment:
+a. Metaphase Spread Analysis:
+Treat cells with colcemid (0.1 μg/mL) for 4 hours.
+Harvest cells, treat with hypotonic solution, and fix with methanol/acetic acid.
+Prepare metaphase spreads on slides and stain with Giemsa.
+Analyze 50 metaphases per cell line for chromosomal aberrations.
+
+b. Next-Generation Sequencing:
+Extract genomic DNA from each cell line.
+Prepare libraries for whole-genome sequencing.
+Perform paired-end sequencing on an Illumina platform.
+Analyze data for copy number variations and mutations using appropriate bioinformatics tools.
+
+### Cell Transformation Assays:
+a. Soft Agar Colony Formation:
+Prepare 0.6% base agar layer in 6-well plates.
+Mix cells with 0.3% top agar and plate over the base layer.
+Incubate for 2-3 weeks, feeding with media every 3-4 days.
+Stain colonies with crystal violet and count using a stereomicroscope.
+
+b. 3D Matrigel Culture:
+Coat 8-well chamber slides with Matrigel.
+Seed cells in media containing 2% Matrigel.
+Culture for 14 days, changing media every 4 days.
+Analyze acini formation using phase-contrast microscopy.
+
+### Gene Expression Analysis:
+a. RNA Sequencing:
+Extract total RNA from each cell line.
+Prepare cDNA libraries for RNA-seq.
+Perform paired-end sequencing on an Illumina platform.
+Analyze differential gene expression using DESeq2 or similar software.
+
+b. Pathway Analysis:
+Use tools like GSEA or IPA to identify dysregulated pathways.
+Focus on pathways related to DNA repair, cell cycle, and cancer.
+
+### Rescue Experiments:
+
+a. Gene Re-expression:
+Clone wild-type BRCA2, BARD1, and PALB2 cDNAs into lentiviral vectors.
+Transduce respective knockout cells with these vectors.
+Select stable cell lines expressing the wild-type genes.
+
+b. Phenotype Rescue Assessment:
+Repeat key assays (DNA damage response, genomic stability, transformation) with rescued cell lines.
+
+### Data Analysis:
+Use appropriate statistical tests (e.g., t-test, ANOVA) to compare results between wild-type, knockout, and rescued cell lines.
+Perform multiple testing corrections (e.g., Benjamini-Hochberg) where applicable.
+Use GraphPad Prism or R for statistical analyses and data visualization.
 
