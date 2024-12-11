@@ -91,7 +91,7 @@ Cytoscape's gene enrichment tool identified 306 significantly enriched terms and
 
 Hypothesis: The dysregulation of the DNA damage response (DDR) pathway, caused by mutations or altered interactions in the BRCA2-BARD1-PALB2 complex, leads to genomic instability and subsequent breast cancer development.
 
-To 
+To test this hypothesis, the following methods can be used:
 
 ### Cell Line Modification:
 a. CRISPR/Cas9 Gene Editing:
