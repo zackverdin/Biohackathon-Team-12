@@ -124,7 +124,4 @@ b.) Assess Phenotype rescue by repeating assays.
 a.) Use various statistical tests (ANOVA tests) and corections. 
 b.) Visualize the data using R or GraphPad. 
 
-a. DNA Damage Induction:
-Treat cells with ionizing radiation (2 Gy) or mitomycin C (100 ng/mL) for 1 hour.
-
 The hypothesis and experiment section were generated with assistance from Prometheus, an AI tool (Prometheus, 2024).
